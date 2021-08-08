@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import M from "materialize-css/dist/js/materialize.js";
 
-const AddLogsModal = () => {
+const AddLogModal = () => {
 	const [message, setMessage] = useState("");
 	const [attention, setAttention] = useState(false);
 	const [tech, setTech] = useState("");
@@ -11,6 +11,11 @@ const AddLogsModal = () => {
 			M.toast({ html: "Please enter a message and tech" });
 		} else {
 			console.log(message, tech);
+
+			//cleat fields
+			setMessage('');
+			setTech('');
+			setAttention(false)
 		}
 	};
 
@@ -86,4 +91,4 @@ const modalStyle = {
 	height: "75%",
 };
 
-export default AddLogsModal;
+export default AddLogModal;
