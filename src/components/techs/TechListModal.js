@@ -8,6 +8,7 @@ const TechListModal = () => {
     useEffect(() => {
         getTechs();
         console.log(techs);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
     const getTechs = async () => {
