@@ -1,11 +1,9 @@
 {
   "logs": [
     {
-      "message": "Changed network card in server 007",
-      "attention": false,
-      "tech": "Sam Smith",
-      "date": "2019-05-31T15:46:10.179Z",
-      "id": 1
+      "id": 1,
+      "message": "Changed network card in server 002",
+      "date": "2021-08-11T05:02:15.218Z"
     },
     {
       "id": 2,
@@ -22,18 +20,11 @@
       "id": 3
     },
     {
-      "id": 4,
-      "message": "Workstation 026 is up and running",
-      "attention": false,
-      "tech": "Sara Wilson",
-      "date": "2019-05-31T19:57:35.544Z"
-    },
-    {
-      "message": "Changed network card",
+      "message": "Killed childeren with fork",
       "attention": true,
-      "tech": "Sam Smith",
-      "date": "2021-08-10T18:26:13.693Z",
-      "id": 5
+      "tech": "John Doe",
+      "date": "2021-08-11T10:43:39.682Z",
+      "id": 4
     }
   ],
   "techs": [
